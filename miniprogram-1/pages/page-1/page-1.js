@@ -78,5 +78,24 @@ Page({
    alhpabeta.shift();
    this.setData({below_button_text: "mysum", mysum: a+1, news: alhpabeta});
   console.log(this.data.news)
- }
+ },
+
+v1c: function(event){
+  console.log("v1")
+  console.log(event)
+  console.log("v1end")
+},
+
+v2c: function(event){
+  console.log("v2")
+  console.log(event)
+  console.log("v2end")
+},
+
+v3c: function(event){
+  console.log("v3")
+  console.log(event)
+  console.log("v3end")
+},
 })
+
