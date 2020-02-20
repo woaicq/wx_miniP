@@ -4,7 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    pri_button_name: "属性是高亮绿色的按钮的名字by data",
+    pri_button_name: "属性是高亮绿色按钮的名字by data",
     below_button_text: "“a text”",
     mysum: 0,
     itemx:[""],

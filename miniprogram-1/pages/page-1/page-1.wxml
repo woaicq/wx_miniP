@@ -1,6 +1,6 @@
 <include src="../template/myHeader" />
 
-<button type="default" hover-class="other-button-hover"> 按钮的名字</button>
+<button type="default" hover-class="other-button-hover">={{pri_button_name}}</button>
 <button type="primary" bindtap="btnClick">{{mysum}}</button>
 
 <text>mysumlist\n</text>
