@@ -1,6 +1,6 @@
 <view class="view1" bindtap="v1c" id="id_view_1" data-title="xxx">
   view1
-  <view class="view2" catchtap="v2c" id="id_view_2" data-title="yyy">
+  <view class="view2" bindtap="v2c" id="id_view_2" data-title="yyy">
     view2
     <view class="view3" bindtap="v3c" id="id_view_3" data-title="zzz">
       view3
