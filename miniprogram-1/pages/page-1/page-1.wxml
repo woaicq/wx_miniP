@@ -1,0 +1,15 @@
+<include src="../template/myHeader" />
+
+<button type="default" hover-class="other-button-hover"> 按钮的名字</button>
+<button type="primary" bindtap="btnClick">{{mysum}}</button>
+
+<text>mysumlist\n</text>
+<view wx:for="{{news}}" wx:for-item="xxx"> 
+{{index+1}}-{{xxx}}
+</view>
+ <import src="../template/myFooter" />
+ <template is="Footer2" />
+
+ <include src="../template/myHeader" />
+ <import src="../template/myFooter" />
+ <template is="Footer1" />

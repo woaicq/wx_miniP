@@ -1,0 +1,7 @@
+<template name="Footer1">
+  <text>{{foot1_str}}</text>
+</template>
+
+<template name="Footer2">
+  <text>It is my Footer2！</text>
+</template>
