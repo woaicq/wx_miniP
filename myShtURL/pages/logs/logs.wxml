@@ -1,6 +1,6 @@
 <!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+<view class="container">
+  <view class="weui-cells__title">请输入快递单号：</view>
+  <input class="weui-input" type="text" bindinput="bindKeyInput" placeholder="serial number(number onlu)"></input>
+  <button type="primary" bindtap="btnChkExp">查询</button>
 </view>

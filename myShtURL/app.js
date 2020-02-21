@@ -35,5 +35,10 @@ App({
   },
   globalData: {
     userInfo: null
+  },
+
+  API_CheckExpInfo: function(getExpNum){
+    console.log(getExpNum);
+    /*  */
   }
 })
